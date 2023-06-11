@@ -26,6 +26,3 @@ const fibsRec = (num) => {
         return numArr.concat(numArr[numArr.length - 1] + numArr[numArr.length - 2]);
     }
 }
-
-// fibsRec(8);
-console.log(fibsRec(8));
